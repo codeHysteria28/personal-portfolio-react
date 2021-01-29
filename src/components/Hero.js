@@ -1,13 +1,13 @@
-import react from 'react';
+import React from 'react';
 import my_photo from '../assets/1585309388755.jpeg';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import './Hero.css';
 
 const Hero = () => {
     return (
         <Row className="discover_row">
             <Col className="text-center">
-                <img className="my_photo" src={my_photo} alt="Photo of myself"/>
+                <img className="my_photo" src={my_photo} alt="Myself"/>
             </Col>
             <Col className="my-auto">
                 <h1 className="heading_name">BRANISLAV BUNA</h1>

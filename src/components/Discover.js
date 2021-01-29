@@ -1,13 +1,13 @@
-import react from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import './Discover.css';
 import pc_guy from '../assets/web-development.png';
 import goal from '../assets/goal.png';
 
 const Discover = () => {
     return (
-        <>
-            <h2 id="discover" class="text-center discover_heading">Discover</h2>
+        <div className="discover_div">
+            <h2 id="discover" className="text-center discover_heading">Discover</h2>
             <Row className="d-flex align-items-center justify-content-center mb-5 border_col">
                 <Col md={6} className="text-center">
                     <img className="pc_guy mb-5" src={pc_guy} alt="pc guy"/>
@@ -33,7 +33,7 @@ const Discover = () => {
                 </Col>
             </Row>
             <br/>
-        </>
+        </div>
     );
 }
 

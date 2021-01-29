@@ -1,0 +1,17 @@
+.images_technologies {
+    width: 85;
+    height: 85px;
+    margin-left: 20px;
+}
+
+.technologies_div {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .images_technologies {
+        margin-top: 20px;
+    }
+}

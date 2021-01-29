@@ -1,0 +1,10 @@
+.company_imgs {
+    width: 75px;
+    height: 75px;
+}
+
+@media only screen and (max-width: 400px) {
+    .spire_software {
+        margin-top: 3rem;
+    }
+}

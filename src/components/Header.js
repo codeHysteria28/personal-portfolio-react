@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar,Nav } from 'react-bootstrap';
-import style from './Header.css';
+import './Header.css';
 import logo_brand from '../assets/logo_brand.png';
 
 const Header = () => {
